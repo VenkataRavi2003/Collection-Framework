@@ -6,7 +6,7 @@ class MiddleElemetInList{
 		Scanner sc=new Scanner(System.in);
 		System.out.print("\nEnter the size of element you need to keep in list >");
 		int size=sc.nextInt();
-		if(size<0){
+		if(size<=0){
 			System.out.println("\nInvalid Size..!");
 			return;
 		}
@@ -18,5 +18,6 @@ class MiddleElemetInList{
 		System.out.println("Resulted List > "+list);
 		int middleElementIndex=list.size()/2;
 		System.out.println("\nMiddle Element In List > "+list.get(middleElementIndex));
+		sc.close();
 	}
 }
