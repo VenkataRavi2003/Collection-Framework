@@ -5,13 +5,13 @@ import java.util.InputMismatchException;
 public class ZigZagMergingOfLists{
 	public static void main(String[] args) {
 		try(Scanner sc = new Scanner(System.in)){
-			System.out.print("\nEnter the size of array : ");
+			System.out.print("\nEnter the sizes of LIST1 & LIST2 : ");
 			int size1 , size2;
 			while (true) {
 				size1 = getValidInput(sc);
 				size2 = getValidInput(sc);
 				if(size1 > 0 && size2 > 0)break;
-				System.out.println("\nLists Size's Must be greater than zero!!");
+				System.out.println("\nLists Sizes Must be greater than zero!!");
 			}
 
 			List<Integer> list1 = new ArrayList<Integer>();
