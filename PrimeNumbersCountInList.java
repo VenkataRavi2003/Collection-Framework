@@ -1,10 +1,7 @@
-package general;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-
 public class PrimeNumbersCountInList {
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)){
